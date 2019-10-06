@@ -143,6 +143,9 @@ export default class ViewTransformer extends React.Component {
             ]
           }}
         >
+          {this.props.image}
+        </View>
+        <View style={{position:'absolute', backgroundColor:'red'}}>
           {this.props.children}
         </View>
       </View>
